@@ -1,5 +1,4 @@
 import utils
-from pip._vendor.pyparsing import line
 
 class Item():
     def __init__(self, name):
