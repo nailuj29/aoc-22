@@ -88,7 +88,6 @@ def day9p2(data):
     return len(tail_positions)
 
 assert day9p1(utils.read(9, True)) == 13
-# assert day9p1(utils.read(9, True)) == 1 
-# input no worky because im too lazy to make multiple test input work :)
+assert day9p2(utils.read(9, True)) == 1 
 print(day9p1(utils.read(9)))
 print(day9p2(utils.read(9)))
